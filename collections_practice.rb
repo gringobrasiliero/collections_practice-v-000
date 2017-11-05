@@ -46,8 +46,6 @@ def add_s(array)
       plurals << (element + "s")
     else plurals << element
     end
+  end
     plurals
   end
-  
-      
-
