@@ -44,7 +44,7 @@ def add_s(array)
   array.each.index.collect do |element, index|
     if index != 1
       plurals << (element + "s")
-    else 
+    else
       plurals << element
     end
   end
