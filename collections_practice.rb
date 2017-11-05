@@ -30,5 +30,9 @@ end
 def kesha_maker(array)
   new_array = []
   i = 0
-
-  for array.each 
+while i < array.length
+new_array << yield(array[i] = "$")
+  i+= 1
+end
+return new_array
+ end
