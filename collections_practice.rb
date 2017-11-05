@@ -32,5 +32,5 @@ array.each{|a| a[2] = "$"}
 end
 
 def find_a(array)
-array.each{|a| a.detect(a)}
+array.detect{|a| "a" }
 end
