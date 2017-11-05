@@ -34,4 +34,3 @@ end
 def find_a(array)
 array.each{|a| a.detect(a)}
 end
-
