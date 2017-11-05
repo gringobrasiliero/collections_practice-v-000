@@ -38,3 +38,16 @@ end
 def sum_array(array)
   array.inject{|a, b| a + b}
 end
+
+def add_s(array)
+  plurals = []
+  array.each.index.collect do |element, index|
+    if index != 1
+      plurals << (element + "s")
+    else plurals << element
+    end
+    plurals
+  end
+  
+      
+
