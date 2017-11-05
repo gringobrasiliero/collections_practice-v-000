@@ -32,7 +32,6 @@ array.each{|a| a[2] = "$"}
 end
 
 def find_a(array)
-new_array = array.detect{|a| "a" }
+array.select{|a| "a" }
 end
-new_array
-end
+
